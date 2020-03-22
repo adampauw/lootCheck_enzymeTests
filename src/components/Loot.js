@@ -23,4 +23,4 @@ export class Loot extends Component {
   }
 }
 
-export default connect(state => state, { fetchBitcoin } )(Loot);
+export default connect(state => state, { fetchBitcoin })(Loot);
